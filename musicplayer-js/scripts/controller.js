@@ -1,4 +1,5 @@
-E
+import { ajax } from "./ajax.js";
+
 window.addEventListener('load', bindEvents);
 function bindEvents(){
     document.getElementById('searchbt')
